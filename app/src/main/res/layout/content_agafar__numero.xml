@@ -8,11 +8,54 @@
     tools:context="com.lpc.fbintent.Agafar_Numero"
     tools:showIn="@layout/activity_agafar__numero">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to the firebase"
-        android:layout_alignParentTop="true"
+        android:text="Número actual en la cua"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:id="@+id/b_agafar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGAFAR NÚMERO"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="369dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp" />
+        android:layout_marginBottom="45dp" />
+
+    <TextView
+        android:id="@+id/Text_NumFb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="74dp"
+        android:layout_below="@+id/textView2"
+        android:layout_toStartOf="@+id/Text_Torn"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:id="@+id/Text_NumSQL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="232dp"
+        android:layout_below="@+id/Text_NumFb"
+        android:layout_toStartOf="@+id/Text_NumFb"
+        android:layout_marginTop="138dp" />
+
+    <TextView
+        android:id="@+id/Text_Torn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="443dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+
 </RelativeLayout>
