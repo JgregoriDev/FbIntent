@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lpc.fbintent.Inici">
+
+    <item
+        android:id="@+id/Inici"
+        android:orderInCategory="100"
+        android:title="Inici"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Agafar_numero"
+        android:orderInCategory="200"
+        android:title="Agafar un número"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Atendre_client"
+        android:orderInCategory="300"
+        android:title="Atendre un client"
+        app:showAsAction="never" />
+</menu>
